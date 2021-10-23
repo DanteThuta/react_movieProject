@@ -8,7 +8,7 @@ const HeroImage = ({ image, title, text }) => {
     <Wrapper image={image}>
       <Content>
         <Text>
-          <h3>{title}</h3>
+          <h1>{title}</h1>
           <p>{text}</p>
         </Text>
       </Content>
