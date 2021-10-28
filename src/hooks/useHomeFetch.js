@@ -43,7 +43,7 @@ export const useHomeFetch = () => {
   useEffect(() => {
     setState(initialState);
     fetchMovies(1, searchTerm);
-    // console.log(state);
+    // console.log(state.movieId);
   }, [searchTerm]);
 
   //to retrieve load More
