@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
      --fontSuperBig: 2.5rem;
      --fontBig: 1.5rem;
      --fontMed : 1.2rem;
-     --fontSmall : 1re  m;
+     --fontSmall : 1rem;
  }
 
  *{
@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
  body{
      margin :0;
      padding:0;
+     
 
      h1{
          font-size : 2rem;

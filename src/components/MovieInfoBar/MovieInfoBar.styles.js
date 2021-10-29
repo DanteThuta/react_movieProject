@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 
   min-height: 100px;
   background: var(--darkGrey);
@@ -11,6 +12,7 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
   display: flex;
+
   max-width: var(--maxWidth);
   width: 100%;
   margin: 0 auto;
@@ -22,7 +24,7 @@ export const Content = styled.div`
     background: var(--medGrey);
     border-radius: 20px;
 
-    margin: 0 30px;
+    margin: 0 20px;
     padding: 20px 0;
     flex: 1;
 
@@ -33,7 +35,7 @@ export const Content = styled.div`
     margin-left: 0;
   }
 
-  ::last-child {
+  :last-child {
     margin-right: 0;
   }
 
