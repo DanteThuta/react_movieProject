@@ -26,3 +26,10 @@ export const Content = styled.div`
     }
   }
 `;
+
+export const HomeBtn = styled.div`
+  padding: 0 10px;
+  background-color: var(--white);
+  border-radius: 20px;
+  text-decoration: none;
+`;
