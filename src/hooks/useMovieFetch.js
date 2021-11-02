@@ -39,11 +39,12 @@ export const useMovieFetch = (movieId) => {
     //for Fetching Movie from Session (not from API)
     const sessionState = isPersistedState(movieId);
     if (sessionState) {
+      console.log("fetching from session");
       setState(sessionState);
       setLoading(false);
       return;
     }
-
+    console.log("fetching from API");
     fetchMovie();
   }, [movieId]);
 
