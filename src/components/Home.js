@@ -58,7 +58,7 @@ class Home extends Component {
     }
   };
 
-  //Creating with Classes
+  //Creating with React Classes
   handleSearch = (searchTerm) => {
     this.setState({ movies: initialState, searchTerm }, () =>
       this.fetchMovies(1, this.state.searchTerm)
@@ -70,10 +70,10 @@ class Home extends Component {
   };
 
   componentDidMount() {
-    this.fetchMovies(1 );
+    this.fetchMovies(1);
   }
 
-  //Creating with Classes(End)
+  //Creating with React Classes(End)
 
   render() {
     const { searchTerm, movies, loading, error } = this.state;
