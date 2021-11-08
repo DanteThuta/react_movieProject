@@ -13,6 +13,16 @@ export const Content = styled.div`
 
   padding: 20px 0;
   margin: 0 auto;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  span {
+    color: var(--white);
+    font-size: var(--fontMed);
+  }
 `;
 
 export const LogoImg = styled.img`
