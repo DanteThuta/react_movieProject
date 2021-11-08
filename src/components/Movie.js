@@ -14,6 +14,7 @@ import MovieInfo from "./MovieInfo";
 import MovieInfoBar from "./MovieInfoBar";
 import Actor from "./Actor";
 
+
 //API
 import API from "../API";
 
